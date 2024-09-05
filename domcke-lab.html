@@ -15,7 +15,8 @@
         .full-screen {
             background-image: url('assests/domcke_lab_v2.jpg');
             background-size: cover;
-            background-position: center;
+            background-position: center center;
+            background-repeat: no-repeat;
             height: 100vh;
             display: flex;
             flex-direction: column;
@@ -99,20 +100,34 @@
         }
 
         @media (max-width: 768px) {
+            .full-screen {
+                background-size: auto 100%;
+                background-position: left center;
+            }
+
             .links {
                 flex-direction: column;
+                margin-top: auto;
+                padding-top: 20px;
             }
 
             .links a {
                 margin: 5px 0;
+                font-size: 18px;
+                padding: 8px 16px;
             }
 
             .sparse-data {
                 display: none;
             }
 
+            .description-container {
+                position: relative;
+                margin-top: auto;
+            }
+
             .description {
-                font-size: 18px;
+                font-size: 16px;
                 padding: 15px 25px;
             }
         }
@@ -131,7 +146,7 @@
         </div>
         <div class="description-container">
             <div class="description">
-                Only a minuscule fraction of theoretically possible cell states occur in nature. We are exploring the unchartered landscape of conceivable cell states and their transitions.
+                Only a minuscule fraction of theoretically possible cell states occur in nature. We are exploring the unchartered landscape of possible cell states and the rules underlying cell state transitions.
             </div>
         </div>
     </div>
