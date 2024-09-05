@@ -13,14 +13,16 @@
         }
 
         .full-screen {
-            background-image: url('assests/domcke_lab.jpg');
+            background-image: url('assests/domcke_lab_v2.jpg');
             background-size: cover;
             background-position: center;
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             position: relative;
+            overflow: hidden;
         }
 
         .links {
@@ -30,6 +32,7 @@
             flex-wrap: wrap;
             justify-content: center;
             max-width: 100%;
+            z-index: 10;
         }
 
         .links a {
@@ -40,10 +43,66 @@
             padding: 10px 20px;
             border: 2px solid white;
             transition: background-color 0.3s ease;
+            background-color: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
         }
         
         .links a:hover {
             background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .sparse-data {
+            position: absolute;
+            right: 0;
+            top: 0;
+            left: 0;
+            height: 50vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            overflow: hidden;
+            color: rgba(255, 255, 255, 0.7);
+            font-family: monospace;
+            font-size: 14px;
+            line-height: 1.2;
+            pointer-events: none;
+        }
+
+        .sparse-column {
+            width: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .sparse-number {
+            transition: opacity 0.5s ease;
+        }
+
+        .description {
+            position: absolute;
+            bottom: 10%;
+            left: 10%;
+            right: 10%;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            padding: 20px;
+            z-index: 5;
+        }
+
+        .description::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 120%;
+            height: 120%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.4);
+            filter: blur(20px);
+            z-index: -1;
         }
 
         @media (max-width: 768px) {
@@ -54,13 +113,22 @@
             .links a {
                 margin: 5px 0;
             }
-        }
 
+            .sparse-data {
+                display: none;
+            }
+
+            .description {
+                font-size: 18px;
+                bottom: 5%;
+            }
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="full-screen">
+        <div class="sparse-data" id="sparseData"></div>
         <div class="links">
             <a href="about-the-research.html">About The Research</a>
             <a href="about-the-lab.html">About The Lab</a>
@@ -68,6 +136,73 @@
             <a href="bio.html">Bio</a>
             <a href="publications.html">Publications</a>
         </div>
+        <div class="description">
+            Only a minuscule fraction of theoretically possible cell states occur in nature. We are exploring the unchartered landscape of conceivable cell states and their transitions.
+        </div>
     </div>
+
+    <script>
+        // The JavaScript remains unchanged
+        function generateSparseData(length) {
+            const data = [];
+            for (let i = 0; i < length; i++) {
+                const rand = Math.random();
+                if (rand < 0.8) {
+                    data.push(0);
+                } else if (rand < 0.85) {
+                    data.push(1);
+                } else if (rand < 0.9) {
+                    data.push(2);
+                } else if (rand < 0.94) {
+                    data.push(3);
+                } else if (rand < 0.97) {
+                    data.push(4);
+                } else {
+                    data.push(6);
+                }
+            }
+            return data;
+        }
+
+        function createSparseDataStructure() {
+            const sparseDataElement = document.getElementById('sparseData');
+            const totalColumns = 30;
+            const maxRows = 25;
+            const minRows = 5;
+
+            for (let i = 0; i < totalColumns; i++) {
+                const column = document.createElement('div');
+                column.className = 'sparse-column';
+
+                const baseHeight = Math.floor(Math.random() * (maxRows - minRows) + minRows);
+                const randomOffset = Math.floor(Math.random() * 5) - 2;
+                const columnHeight = Math.max(minRows, Math.min(maxRows, baseHeight + randomOffset));
+
+                for (let j = 0; j < columnHeight; j++) {
+                    const numberElement = document.createElement('div');
+                    numberElement.className = 'sparse-number';
+                    const opacity = 1 - (j / columnHeight) * 0.8;
+                    numberElement.style.opacity = opacity;
+                    column.appendChild(numberElement);
+                }
+                sparseDataElement.appendChild(column);
+            }
+        }
+
+        function updateSparseData() {
+            const columns = document.querySelectorAll('.sparse-column');
+            columns.forEach((column) => {
+                const numbers = column.querySelectorAll('.sparse-number');
+                const data = generateSparseData(numbers.length);
+                numbers.forEach((numberElement, index) => {
+                    numberElement.textContent = data[index];
+                });
+            });
+        }
+
+        createSparseDataStructure();
+        updateSparseData();
+        setInterval(updateSparseData, 2000);
+    </script>
 </body>
 </html>

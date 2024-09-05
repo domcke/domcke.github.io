@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .full-screen {
+            background-image: url('assests/domcke_lab_v2.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .links {
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 100%;
+        }
+
+        .links a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            margin: 10px;
+            padding: 10px 20px;
+            border: 2px solid white;
+            transition: background-color 0.3s ease;
+        }
+        
+        .links a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .links {
+                flex-direction: column;
+            }
+
+            .links a {
+                margin: 5px 0;
+            }
+        }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="full-screen">
+        <div class="links">
+            <a href="about-the-research.html">About The Research</a>
+            <a href="about-the-lab.html">About The Lab</a>
+            <a href="about-the-team.html">About The Team</a>
+            <a href="bio.html">Bio</a>
+            <a href="publications.html">Publications</a>
+        </div>
+    </div>
+</body>
+</html>
