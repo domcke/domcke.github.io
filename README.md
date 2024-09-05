@@ -1,1 +1,1 @@
-# [Domcke Lab Website](https://domcke.github.io/homepage.html)
+# [Domcke Lab Website](https://domcke.github.io/domcke-lab.html)
