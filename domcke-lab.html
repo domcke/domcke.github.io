@@ -43,13 +43,15 @@
             margin: 10px;
             padding: 10px 20px;
             border: 2px solid white;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease, color 0.3s ease;
             background-color: rgba(0, 0, 0, 0.3);
             backdrop-filter: blur(5px);
         }
         
         .links a:hover {
-            background-color: rgba(255, 255, 255, 0.2);
+            background-color: rgba(255, 255, 255, 0.4);
+            color: rgb(94, 153, 168); /* Darker text color on hover */
+            border-color: rgb(94, 153, 168);
         }
 
         .sparse-data {
@@ -63,7 +65,7 @@
             justify-content: flex-end;
             overflow: hidden;
             color: rgb(206, 219, 230);
-            font-family: monospace;
+            font-family: 'Roboto', monospace;
             font-size: 14px;
             line-height: 1.2;
             pointer-events: none;
@@ -132,17 +134,16 @@
             }
         }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="full-screen">
         <div class="sparse-data" id="sparseData"></div>
         <div class="links">
-            <a href="about-the-research.html">About The Research</a>
-            <a href="about-the-lab.html">About The Lab</a>
-            <a href="about-the-team.html">About The Team</a>
-            <a href="bio.html">Bio</a>
-            <a href="publications.html">Publications</a>
+            <a href="about-the-research.html">About Our Research</a>
+            <a href="about-the-lab.html">About Our Lab</a>
+            <a href="about-the-team.html">About Our Team</a>
+            <a href="publications.html">Our Publications</a>
         </div>
         <div class="description-container">
             <div class="description">
