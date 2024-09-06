@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Domcke Lab Research</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .full-screen {
+            background-image: url('assests/research.png');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px 20px;
+            box-sizing: border-box;
+        }
+
+        .center-text {
+            width: 80%;
+            max-width: 800px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            font-size: 16px;
+            line-height: 1.6;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .center-text h1 {
+            margin-top: 0;
+        }
+
+        .content-boxes {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            width: 100%;
+            max-width: 1200px;
+            margin-bottom: 40px;
+        }
+
+        .content-box {
+            flex: 1;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 20px;
+            margin: 0 10px;
+            border-radius: 10px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .content-box h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .content-box img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .tools-box {
+            width: 100%;
+            max-width: 1200px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 20px;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        .tools-box h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: 2px solid white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-link:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .center-text {
+                width: 90%;
+            }
+
+            .content-boxes {
+                flex-direction: column;
+            }
+
+            .content-box {
+                width: 100%;
+                margin: 0 0 20px 0;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="full-screen">
+        <div class="center-text">
+            <h1>About our Research</h1>
+            <p>Transcription factors (TFs) determine cell fates by regulating which genes are turned on or off in a given cell. A central aim of our research is to be able to predict TF activity in any given cell, even if it is not naturally expressed there. This would enable us to perform intentional cell state transitions, for example from diseased to healthy states.</p>
+        </div>
+
+        <div class="content-boxes">
+            <div class="content-box">
+                <img src="assests/placeholder1.png" alt="TF binding site selection">
+                <h2>Learning mechanisms of TF binding site selection</h2>
+                <p>TFs recognize defined sequence motifs in the DNA, yet they only occupy a small subset of these sites in a cell type-specific manner. We are systematically studying the rules underlying cell type-specific TF occupancy and its downstream effects.</p>
+            </div>
+            <div class="content-box">
+                <img src="assests/placeholder2.png" alt="Predictive models of TF activity">
+                <h2>Building and leveraging predictive models of TF activity</h2>
+                <p>We are not just focusing on naturally occurring cell state transitions, but exploring and mapping the landscape of possible stable cell states attainable by natural TFs. We are using these maps to train deep learning models and predict TF 'recipes' for intentional novel cell state transitions.</p>
+            </div>
+            <div class="content-box">
+                <img src="assests/placeholder3.png" alt="Transferability across environments">
+                <h2>Transferability across scales and organisms</h2>
+                <p>Being able to predict cell state transitions in patients would have enormous therapeutic potential. Our experiments are performed in cells in a dish, which differ drastically from a complex organism. To bridge this gap, we are studying the influence of cell-cell interactions in multicellular systems and transferring TF activity predictions across environments and species.</p>
+            </div>
+        </div>
+
+        <div class="tools-box">
+            <h2>Our tools</h2>
+            <p><strong>Experimental:</strong> in vitro models of various cell types, genetic and epigenetic editing technologies, high-throughput pooled screens and single cell genomics assays.</p>
+            <p><strong>Computational:</strong> causal, mechanistic models and predictive deep learning models.</p>
+        </div>
+
+        <a href="domcke-lab.html" class="back-link">Back Home</a>
+    </div>
+</body>
+</html>
