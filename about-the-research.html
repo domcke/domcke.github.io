@@ -30,14 +30,12 @@
             top: 0;
             left: 0;
             right: 0;
-            background-color: rgba(0, 0, 0, 0.3);
-            backdrop-filter: blur(5px);
             padding: 20px 0;
             width: 100%;
         }
 
         .description {
-            color: white;
+            color: rgb(94, 153, 168);
             text-align: center;
             width: 100%;
             margin: 0 auto;
@@ -45,66 +43,68 @@
             box-sizing: border-box;
         }
 
-        .description h1 {
+        .description h1, .content-box h2 {
             font-size: 24px;
         }
 
-        .description p {
+        .description p, .content-box p {
             font-size: 16px;
             line-height: 1.6;
         }
 
         .content-boxes {
+            text-align: center;
             display: flex;
-            justify-content: space-between;
-            flex-wrap: nowrap;
-            width: 100%;
-            max-width: 1200px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 100%;
+            z-index: 10;
             margin: 40px 0;
             padding: 0 20px;
             box-sizing: border-box;
         }
 
         .content-box {
-            flex: 1;
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+            margin: 10px;
+            padding: 10px 20px;
+            border: 2px solid white;
             background-color: rgba(0, 0, 0, 0.3);
             backdrop-filter: blur(5px);
-            color: white;
-            padding: 20px;
-            margin: 0 10px;
-            text-align: left;
+            flex: 1;
+            min-width: 250px;
+            max-width: 350px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            border: 2px solid white;
         }
 
         .content-box h2 {
             text-align: center;
             margin-top: 0;
-            font-size: 20px;
-        }
-
-        .content-box p {
-            font-size: 16px;
-            line-height: 1.6;
         }
 
         .back-link {
-            display: inline-block;
             color: white;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 16px;
+            margin: 10px;
             padding: 10px 20px;
             border: 2px solid white;
-            transition: background-color 0.3s ease;
-            margin-bottom: 40px;
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
             background-color: rgba(0, 0, 0, 0.3);
             backdrop-filter: blur(5px);
+            display: inline-block;
+            margin-bottom: 40px;
         }
 
         .back-link:hover {
-            background-color: rgba(255, 255, 255, 0.2);
+            background-color: rgba(255, 255, 255, 0.4);
+            color: rgb(94, 153, 168);
+            border-color: rgb(94, 153, 168);
         }
 
         @media (max-width: 768px) {
@@ -114,11 +114,12 @@
 
             .content-box {
                 width: 100%;
-                margin: 0 0 20px 0;
+                max-width: none;
+                margin: 10px 0;
             }
         }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="full-screen">
