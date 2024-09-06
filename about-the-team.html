@@ -14,7 +14,7 @@
         }
 
         .full-screen {
-            background-image: url('assests/team_pic_v2.jpg');
+            background-image: url('assets/team_pic_v2.jpg');
             background-size: cover;
             background-position: center;
             min-height: 100vh;
@@ -56,6 +56,7 @@
             border-radius: 10px;
             flex: 1 1 400px;
             max-width: 500px;
+            margin-bottom: 32px;
             display: flex;
             align-items: flex-start;
             box-sizing: border-box;
@@ -217,53 +218,8 @@
     <div class="full-screen">
         <h1 class="page-title">Meet Our Team</h1>
         <div class="content-wrapper">
-            <div class="content-box">
-                <div class="content-left">
-                    <div class="content-image">
-                        <img src="assests/silvia.jpeg" alt="Silvia Domcke">
-                    </div>
-                    <h2>Silvia Domcke</h2>
-                    <h3>Principal Investigator</h3>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/silvia-domcke-phd-6529b3b5/" target="_blank" class="social-link">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://x.com/sdomcke" target="_blank" class="social-link">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="https://github.com/domcke" target="_blank" class="social-link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="content-text">
-                    <p>Silvia is an Assistant Professor at the University of Zurich. Her scientific journey brought her here via the Technical University of Munich, over Harvard Medical School in Boston, Memorial Sloan Kettering Cancer Center in New York, the FMI in Basel, and the University of Washington in Seattle. Form bench to byte, this also included a multi-year excursion into world of Silicon Valley biotech, leading a computational team at a drug discovery start-up.</p>
-                    <p>Silvia's love for adventures and exploring the unknown goes beyond science: she's also a passionate ski mountaineer, alpine climber and wilderness bushwhacker.</p>
-                </div>
-            </div>
-            <div class="content-box">
-                <div class="content-left">
-                    <div class="content-image">
-                        <img src="assests/team_member2.jpg" alt="Team Member 2">
-                    </div>
-                    <h2>You?</h2>
-                    <h3>Masters Student/ PhD Student/ Postdoc/ Research Staff</h3>
-                    <div class="social-links">
-                        <a href="#" target="_blank" class="social-link">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="#" target="_blank" class="social-link">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" target="_blank" class="social-link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="content-text">
-                    <p>We are actively recruiting!</p>
-                </div>
-            </div>
+            <div id="team-container"></div>
+            <script src="bios.js"></script>
         </div>
         <div class="button-container">
             <a href="domcke-lab.html" class="button">Back Home</a>
