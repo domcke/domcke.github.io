@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Silvia Domcke",
+        "role": "Principal Investigator",
+        "bio": "Silvia is an Assistant Professor at the University of Zurich. Her scientific journey brought her here via the Technical University of Munich, over Harvard Medical School in Boston, Memorial Sloan Kettering Cancer Center in New York, the FMI in Basel, and the University of Washington in Seattle. Form bench to byte, this also included a multi-year excursion into world of Silicon Valley biotech, leading a computational team at a drug discovery start-up.",
+        "extra": "Silvia's love for adventures and exploring the unknown goes beyond science: she's also a passionate ski mountaineer, alpine climber and wilderness bushwhacker.",
+        "image": "assets/silvia.jpeg",
+        "linkedin": "https://www.linkedin.com/in/silvia-domcke-phd-6529b3b5/",
+        "x": "https://x.com/sdomcke",
+        "github": "https://github.com/domcke"
+    },
+    {
+        "name": "John Hunt",
+        "role": "Husband",
+        "bio": "John has been married to Dr. Domcke for nearly one year.",
+        "extra": "",
+        "image": "assets/jack.jpg",
+        "linkedin": "https://www.linkedin.com/in/john-hunt-3b93ab25/",
+        "x": "https://x.com/jjdhunt",
+        "github": "https://github.com/jjdhunt"
+    },
+    {
+        "name": "You?",
+        "role": "Masters Student<br>PhD Student<br>Postdoc<br>Research Staff",
+        "bio": "We are actively recruiting!",
+        "extra": "",
+        "image": "assets/team_pic.jpg"
+    }
+]
