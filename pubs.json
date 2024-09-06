@@ -1,0 +1,31 @@
+[
+    {
+        "title": "A new method to measure single cell chromatin accessibility",
+        "description": "Profiling chromatin accessibility at single cell resolution for large numbers of samples is cost-prohibitive and/or difficult to accomplish outside of a production environment. We developed a new, cost-effective and versatile method 'sci-ATAC-seq3' that allows us to profile up to 1 million cells and 24 different samples within one experiment. We collect single cell chromatin accessibility profiles from 59 human samples and use them to nominate key TFs as cell fate regulators, explore their mode of action and potential cooperativity.",
+        "image": "https://www.science.org/cms/10.1126/science.aba7612/asset/1d036057-57fc-4880-9464-dda2a6636f4c/assets/graphic/370_aba7612_fa.jpeg",
+        "fulltext": "https://www.science.org/doi/full/10.1126/science.aba7612",
+        "ImageWidth": 300
+    },
+    {
+        "title": "Thoughts on a modern definition of a 'cell type'",
+        "description": "In this forward looking perspective, we inspect how we define cell types and provide a thought experiment on how to define them in a data-driven manner.",
+        "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867423001599-gr4.jpg",
+        "fulltext": "https://www.sciencedirect.com/science/article/pii/S0092867423001599",
+        "ImageWidth": 150
+    },
+    {
+        "title": "How does DNA methylation influence transcription factor binding",
+        "description": "We like DNA",
+        "image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature16462/MediaObjects/41586_2015_Article_BFnature16462_Fig4_HTML.jpg?as=webp",
+        "fulltext": "https://rdcu.be/dTeGk",
+        "ImageWidth": 150
+     },
+     {
+        "title": "Identifying in vitro models that most closely resemble patient samples",
+        "description": "We like DNA",
+        "image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fncomms3126/MediaObjects/41467_2013_Article_BFncomms3126_Fig3_HTML.jpg?as=webp",
+        "fulltext": "https://www.nature.com/articles/ncomms3126",
+        "ImageWidth": 300
+     }
+
+]
