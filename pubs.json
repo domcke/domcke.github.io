@@ -1,14 +1,14 @@
 [
     {
         "title": "A new method to measure single cell chromatin accessibility",
-        "description": "Profiling chromatin accessibility at single cell resolution for large numbers of samples is cost-prohibitive and/or difficult to accomplish outside of a production environment. We developed a new, cost-effective and versatile method 'sci-ATAC-seq3' that allows us to profile up to 1 million cells and 24 different samples within one experiment. We collect single cell chromatin accessibility profiles from 59 human samples and use them to nominate key TFs as cell fate regulators, explore their mode of action and potential cooperativity.",
+        "description": "Measuring chromatin accessibility at single cell resolution for large numbers of samples is cost-prohibitive and laborious, and suffers from batch-effects. We developed a new, cost-effective and versatile method, 'sci-ATAC-seq3', that allows us to profile up to 1 million cells and 24 different samples within one experiment. We use this method to generate single cell chromatin accessibility profiles from 59 human tissue samples. From the resulting dataset, we can nominate key TFs for the major cell lineages in the human body, explore their mode of action, and identify cell types involved in heritable diseases.",
         "image": "https://www.science.org/cms/10.1126/science.aba7612/asset/1d036057-57fc-4880-9464-dda2a6636f4c/assets/graphic/370_aba7612_fa.jpeg",
         "fulltext": "https://www.science.org/doi/full/10.1126/science.aba7612",
         "ImageWidth": 300
     },
     {
-        "title": "Thoughts on a modern definition of a 'cell type'",
-        "description": "In this forward looking perspective, we inspect how we define cell types and provide a thought experiment on how to define them in a data-driven manner.",
+        "title": "What is a 'cell type'? Thoughts on an updated definition",
+        "description": "Our systems of classification both reflect and direct our thinking. In this forward looking perspective, we inspect different possible approaches to classifying cell types. We advocate for a data-driven, tree-based nomenclature and provide a thought experiment on how it might be derived.",
         "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867423001599-gr4.jpg",
         "fulltext": "https://www.sciencedirect.com/science/article/pii/S0092867423001599",
         "ImageWidth": 150
