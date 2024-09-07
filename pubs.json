@@ -1,6 +1,6 @@
 [
     {
-        "title": "A new method to measure single cell chromatin accessibility",
+        "title": "A new method to measure single cell chromatin accessibility at scale",
         "description": "Measuring chromatin accessibility at single cell resolution for large numbers of samples is cost-prohibitive and laborious, and suffers from batch effects. We developed a new, cost-effective and versatile method, 'sci-ATAC-seq3', that allows us to profile up to 1 million cells and 24 different samples within one experiment. We use this method to generate single cell chromatin accessibility profiles from 59 human tissue samples. From the resulting dataset, we can nominate key TFs for the major cell lineages in the human body, explore their mode of action, and identify cell types involved in heritable diseases.",
         "image": "https://www.science.org/cms/10.1126/science.aba7612/asset/1d036057-57fc-4880-9464-dda2a6636f4c/assets/graphic/370_aba7612_fa.jpeg",
         "fulltext": "https://www.science.org/doi/full/10.1126/science.aba7612",
