@@ -11,21 +11,21 @@
         "description": "Our systems of classification both reflect and direct our thinking. In this forward looking perspective, we inspect different possible approaches to classifying cell types. We advocate for a data-driven, tree-based nomenclature and provide a thought experiment on how it might be derived.",
         "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867423001599-gr4.jpg",
         "fulltext": "https://www.sciencedirect.com/science/article/pii/S0092867423001599",
-        "ImageWidth": 150
+        "imageWidth": 150
     },
     {
-        "title": "How does DNA methylation influence transcription factor binding",
-        "description": "We like DNA",
+        "title": "Influence of DNA methylation on transcription factor binding",
+        "description": "DNA methylation and TF binding are anti-correlated across the genome – is this because DNA methylation prevents TFs from binding or do other mechanisms ensure absence of DNA methylation at TF binding sites? To tease apart cause and correlation, we generated stem cells without any DNA methylation and compared DNase hypersensitivity (DHS) as a proxy for global TF binding across cells with and without this mark. By identifying sequence motifs enriched in differential DHS sites, we were able to nominate a subset of methylation sensitive TFs, which are only able to bind their motifs in the absence of DNA methylation. We dissect methylation sensitivity in detail for NRF1, showing that DNA methylation can serve to mediate indirect TF hierarchies.",
         "image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature16462/MediaObjects/41586_2015_Article_BFnature16462_Fig4_HTML.jpg?as=webp",
         "fulltext": "https://rdcu.be/dTeGk",
-        "ImageWidth": 150
+        "imageWidth": 150
      },
      {
         "title": "Identifying in vitro models that most closely resemble patient samples",
-        "description": "We like DNA",
+        "description": "Cancer cell lines are commonly used as in vitro models in preclinical studies. To identify cell lines that most closely resemble patient tumor samples in mutation profile, copy number variation and expression, we compared these profiles for ovarian cancer patient samples from The Cancer Genome Atlas (TCGA) and ovarian cancer cell lines The Broad-Novartis Cancer Cell Line Encyclopedia (CCLE). To our surprise, we discovered that the most frequently used ovarian cancer cell lines – utilized in over 60% of all Pubmed citations on this cancer type at the time – in fact failed to resemble ovarian cancer tumor samples in their genomic profiles. In some cases, their expression profiles even implied that they were derived from metastases of other cancer types originating in different tissues. We identified 12 cancer cell lines that are more genomically similar to primary ovarian tumors, yet accounted for only 1% of Pubmed citations using ovarian cancer cell lines. This work has since led to a reversal in the amount of Pubmed citations mentioning the respective cell lines.",
         "image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fncomms3126/MediaObjects/41467_2013_Article_BFncomms3126_Fig3_HTML.jpg?as=webp",
         "fulltext": "https://www.nature.com/articles/ncomms3126",
-        "ImageWidth": 300
+        "imageWidth": 300
      }
 
 ]
