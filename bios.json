@@ -10,16 +10,6 @@
         "github": "https://github.com/domcke"
     },
     {
-        "name": "John Hunt",
-        "role": "Husband",
-        "bio": "John has been married to Dr. Domcke for nearly one year.",
-        "extra": "",
-        "image": "assets/jack.jpg",
-        "linkedin": "https://www.linkedin.com/in/john-hunt-3b93ab25/",
-        "x": "https://x.com/jjdhunt",
-        "github": "https://github.com/jjdhunt"
-    },
-    {
         "name": "You?",
         "role": "Masters Student<br>PhD Student<br>Postdoc<br>Research Staff",
         "bio": "We are actively recruiting!",
