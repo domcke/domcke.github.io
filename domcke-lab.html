@@ -13,7 +13,7 @@
         }
 
         .full-screen {
-            background-image: url('assets/jack_cells_3.png');
+            background-image: url('assets/cells_istock.jpg');
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
@@ -37,7 +37,7 @@
         }
 
         .links a {
-            color: rgb(208, 241, 249);
+            color: rgb(171, 245, 245); /*rgb(208, 241, 249);*/
             text-decoration: none;
             font-size: 24px;
             margin: 10px;
@@ -50,8 +50,8 @@
         
         .links a:hover {
             background-color: rgba(255, 255, 255, 0.4);
-            color: rgb(94, 153, 168); /* Darker text color on hover */
-            border-color: rgb(94, 153, 168);
+            color: rgb(196, 99, 201); /* Darker text color on hover */ /*pink: rgb(196, 99, 201*/
+            border-color: rgb(196, 99, 201);
         }
 
         .sparse-data {
@@ -62,17 +62,18 @@
             height: 50vh;
             display: flex;
             flex-direction: row;
-            justify-content: flex-end;
+            justify-content: space-between;
             overflow: hidden;
             color: rgb(206, 219, 230);
             font-family: 'Roboto', monospace;
             font-size: 14px;
             line-height: 1.2;
             pointer-events: none;
+            width: 100%;
         }
 
         .sparse-column {
-            width: 20px;
+            width: flex 1;
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -92,7 +93,7 @@
         }
 
         .description {
-            color: rgb(94, 153, 168);
+            color: white;
             font-size: 24px;
             text-align: center;
             max-width: 800px;
@@ -101,14 +102,20 @@
 
         @media (max-width: 768px) {
             .full-screen {
-                background-size: auto 100%;
-                background-position: left center;
+                background-size: cover;
+                background-position: center center;
+                justify-content: center;
             }
 
             .links {
                 flex-direction: column;
                 margin-top: auto;
                 padding-top: 20px;
+                flex-wrap: nowrap;
+                border-radius: 10px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
             }
 
             .links a {
@@ -118,7 +125,19 @@
             }
 
             .sparse-data {
-                display: none;
+                height: 100%;
+                width: 100%;
+                position: fixed;
+                justify-content: flex-start;
+            }
+
+            .sparse-column {
+                flex: 0 0 auto;
+                width: 20px;
+            }
+
+            .sparse-number {
+                font-size: 10px;
             }
 
             .description-container {
@@ -175,7 +194,7 @@
 
         function createSparseDataStructure() {
             const sparseDataElement = document.getElementById('sparseData');
-            const totalColumns = 30;
+            const totalColumns = 60;
             const maxRows = 25;
             const minRows = 5;
 
