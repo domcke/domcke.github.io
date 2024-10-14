@@ -11,7 +11,7 @@ fetch('bios.json')
                         </div>
                         <h2>${member.name}</h2>
                         <h3>${member.role}</h3>
-                        ${member.role === 'Principal Investigator' ? `<p style="color: white; margin-top: 0; text-align: center; font-size: 0.9em;">silvia.domcke@uzh.ch</p>` : ''}
+                        ${member.role === 'Principal Investigator' ? `<p style="color: white; margin-top: 0; text-align: center; font-size: 0.9em;">silvia.domcke[a]uzh.ch</p>` : ''}
                         <div class="social-links">
                             <a href="${member.linkedin}" target="_blank" class="social-link">
                                 <i class="fab fa-linkedin"></i>
