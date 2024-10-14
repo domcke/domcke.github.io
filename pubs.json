@@ -24,7 +24,7 @@
         "description": "DNA methylation and transcription factor (TF) binding are anti-correlated across the vertebrate genome – is this because DNA methylation prevents TFs from binding or do other mechanisms ensure absence of DNA methylation at TF binding sites? To tease apart cause and correlation, we generated stem cells without any DNA methylation and compared DNase hypersensitivity (DHS) as a proxy for global TF binding across cells with and without this mark. By identifying sequence motifs enriched in differential DHS sites, we were able to nominate a subset of methylation sensitive TFs, which are only able to bind their motifs in the absence of DNA methylation. We dissect methylation sensitivity in detail for the TF NRF1, showing that DNA methylation can serve to mediate indirect TF hierarchies. Image from News and Views <a href=\"https://www.embopress.org/doi/full/10.15252/embj.201593750\" target=\"_blank\" style=\"color: rgb(149, 230, 230); text-decoration: none;\"> article</a> on the study.",
         "image": "assets/embj201593750-fig-0001-m.png",
         "fulltext": "https://rdcu.be/dTeGk",
-        "imageWidth": 150
+        "imageWidth": 200
      },
      {
         "title": "Evaluating cell lines as tumour models by comparison of genomic profiles",
