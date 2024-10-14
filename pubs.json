@@ -10,7 +10,7 @@
         "description": "Measuring chromatin accessibility at single cell resolution for large numbers of samples is cost-prohibitive, laborious and suffers from batch effects. We developed a new, cost-effective and versatile method, 'sci-ATAC-seq3', which allows us to profile up to 1 million cells and 24 different samples within one experiment. With this method, we generate single cell chromatin accessibility profiles from 59 human tissue samples. We use the resulting dataset to nominate key transcription factors (TFs) for cell fate determination or maintenance of the major cell lineages in the human body, explore their mode of action, and identify cell types involved in heritable diseases.",
         "image": "assets/370_aba7612_fa.jpeg",
         "fulltext": "https://www.science.org/doi/full/10.1126/science.aba7612",
-        "ImageWidth": 300
+        "ImageWidth": 250
     },
     {
         "title": "A reference cell tree will serve science better than a reference cell atlas",
@@ -22,7 +22,7 @@
     {
         "title": "Competition between DNA methylation and transcription factors determines binding of NRF1",
         "description": "DNA methylation and transcription factor (TF) binding are anti-correlated across the vertebrate genome – is this because DNA methylation prevents TFs from binding or do other mechanisms ensure absence of DNA methylation at TF binding sites? To tease apart cause and correlation, we generated stem cells without any DNA methylation and compared DNase hypersensitivity (DHS) as a proxy for global TF binding across cells with and without this mark. By identifying sequence motifs enriched in differential DHS sites, we were able to nominate a subset of methylation sensitive TFs, which are only able to bind their motifs in the absence of DNA methylation. We dissect methylation sensitivity in detail for the TF NRF1, showing that DNA methylation can serve to mediate indirect TF hierarchies. Image from News and Views <a href=\"https://www.embopress.org/doi/full/10.15252/embj.201593750\" target=\"_blank\" style=\"color: rgb(149, 230, 230); text-decoration: none;\"> article</a> on the study.",
-        "image": "assests/embj201593750-fig-0001-m.webp",
+        "image": "assests/embj201593750-fig-0001-m.png",
         "fulltext": "https://rdcu.be/dTeGk",
         "imageWidth": 250
      },
