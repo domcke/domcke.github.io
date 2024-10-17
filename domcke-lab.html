@@ -13,7 +13,7 @@
         }
 
         .full-screen {
-            background-image: url('assets/cells_istock.jpg');
+            background-image: url('assets/website_bg_adj.jpg');
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
@@ -54,42 +54,26 @@
             border-color: rgb(196, 99, 201);
         }
 
-        .sparse-data {
-            position: absolute;
-            right: 0;
-            top: 0;
-            left: 0;
-            height: 50vh;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            overflow: hidden;
-            color: rgb(206, 219, 230);
-            font-family: 'Roboto', monospace;
-            font-size: 14px;
-            line-height: 1.2;
-            pointer-events: none;
-            width: 100%;
-        }
-
-        .sparse-column {
-            width: flex 1;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-        }
-
-        .sparse-number {
-            transition: opacity 0.5s ease;
-        }
 
         .description-container {
             position: absolute;
-            bottom: 50px;
+            bottom: 30px;
             left: 0;
             right: 0;
-            padding: 70px 0;
+            background-color: rgba(37, 37, 38, 0.3); /* Dark background with some transparency */
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        .description-container::before {
+            content: '';
+            display: block;
+            height: 60px; /* Adjust this value to increase or decrease the padding */
+            width: 100%;
+            position: absolute;
+            top: -60px; /* This should be the negative of the height */
+            left: 0;
+            background: linear-gradient(to bottom, rgba(37, 37, 38, 0) 0%, rgba(37, 37, 38, 0.3) 100%);
         }
 
         .description {
@@ -98,6 +82,7 @@
             text-align: center;
             max-width: 800px;
             margin: 0 auto;
+            position: relative;
         }
 
         @media (max-width: 768px) {
@@ -122,22 +107,6 @@
                 margin: 5px 0;
                 font-size: 18px;
                 padding: 8px 16px;
-            }
-
-            .sparse-data {
-                height: 100%;
-                width: 100%;
-                position: fixed;
-                justify-content: flex-start;
-            }
-
-            .sparse-column {
-                flex: 0 0 auto;
-                width: 20px;
-            }
-
-            .sparse-number {
-                font-size: 10px;
             }
 
             .description-container {
@@ -168,69 +137,5 @@
             </div>
         </div>
     </div>
-
-    <script>
-        // The JavaScript remains unchanged
-        function generateSparseData(length) {
-            const data = [];
-            for (let i = 0; i < length; i++) {
-                const rand = Math.random();
-                if (rand < 0.8) {
-                    data.push(0);
-                } else if (rand < 0.85) {
-                    data.push(1);
-                } else if (rand < 0.9) {
-                    data.push(2);
-                } else if (rand < 0.94) {
-                    data.push(3);
-                } else if (rand < 0.97) {
-                    data.push(4);
-                } else {
-                    data.push(6);
-                }
-            }
-            return data;
-        }
-
-        function createSparseDataStructure() {
-            const sparseDataElement = document.getElementById('sparseData');
-            const totalColumns = 60;
-            const maxRows = 25;
-            const minRows = 5;
-
-            for (let i = 0; i < totalColumns; i++) {
-                const column = document.createElement('div');
-                column.className = 'sparse-column';
-
-                const baseHeight = Math.floor(Math.random() * (maxRows - minRows) + minRows);
-                const randomOffset = Math.floor(Math.random() * 5) - 2;
-                const columnHeight = Math.max(minRows, Math.min(maxRows, baseHeight + randomOffset));
-
-                for (let j = 0; j < columnHeight; j++) {
-                    const numberElement = document.createElement('div');
-                    numberElement.className = 'sparse-number';
-                    const opacity = 1 - (j / columnHeight) * 0.8;
-                    numberElement.style.opacity = opacity;
-                    column.appendChild(numberElement);
-                }
-                sparseDataElement.appendChild(column);
-            }
-        }
-
-        function updateSparseData() {
-            const columns = document.querySelectorAll('.sparse-column');
-            columns.forEach((column) => {
-                const numbers = column.querySelectorAll('.sparse-number');
-                const data = generateSparseData(numbers.length);
-                numbers.forEach((numberElement, index) => {
-                    numberElement.textContent = data[index];
-                });
-            });
-        }
-
-        createSparseDataStructure();
-        updateSparseData();
-        setInterval(updateSparseData, 2000);
-    </script>
 </body>
 </html>
