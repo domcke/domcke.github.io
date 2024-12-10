@@ -12,7 +12,7 @@
     {
         "name": "You?",
         "role": "Masters Student<br>PhD Student<br>Postdoc<br>Research Staff",
-        "bio": "We are actively recruiting at all levels! <a href=\"https://jobs.uzh.ch/job-vacancies/research-technician-lab-manager-at-university-of-zurich/6fb55d64-0b97-4577-9437-522a1c313671\" target=\"_blank\"> Here </a> is our current job ad for a research technician/lab manger.",
+        "bio": "We are actively recruiting at all levels!<br><br><a href=\"https://jobs.uzh.ch/job-vacancies/research-technician-lab-manager-at-university-of-zurich/6fb55d64-0b97-4577-9437-522a1c313671\" target=\"_blank\" style=\"color: rgb(204, 255, 255)\">Here</a> is our current job ad for a research technician/lab manger.",
         "extra": "",
         "image": "assets/team_pic.jpg"
     }
