@@ -19,7 +19,7 @@ fetch('bios.json')
             const card = `
                 <div class="content-box">
                     <div class="content-left">
-                        <div class="content-image">
+                        <div class="content-image" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
                             <img src="${member.image}" alt="${member.name}">
                         </div>
                         <h2>${member.name}</h2>
