@@ -17,7 +17,7 @@ fetch('bios.json')
                     </a>` : ''}
                 </div>`;
             const card = `
-                <div class="content-box" style="display: flex; flex-direction: row; max-width: 900px; margin: 0 auto;">
+                <div class="content-box" style="display: flex; flex-direction: row; max-width: 700px; margin: 0 auto;">
                     <div class="content-left" style="flex: 0 0 250px; padding: 15px;">
                         <div class="content-image" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
                             <img src="${member.image}" alt="${member.name}">
