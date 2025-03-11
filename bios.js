@@ -23,7 +23,7 @@ fetch('bios.json')
                             <img src="${member.image}" alt="${member.name}">
                         </div>
                         <h2>${member.name}</h2>
-                        <h3 style="width: 200px; margin: 0 auto; text-align: center;">${member.role}</h3>
+                        <h3 style="width: 250px; margin: 0 auto; text-align: center;">${member.role}</h3>
                         <p style="color: white; margin-top: 0; text-align: center; font-size: 0.9em;">${member.email}</p>
                         ${socialLinksHTML}
                     </div>
