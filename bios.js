@@ -17,8 +17,8 @@ fetch('bios.json')
                     </a>` : ''}
                 </div>`;
             const card = `
-                <div class="content-box">
-                    <div class="content-left">
+                <div class="content-box" style="display: flex; flex-direction: row; max-width: 900px; margin: 0 auto;">
+                    <div class="content-left" style="flex: 0 0 250px; padding: 15px;">
                         <div class="content-image" style="width: 200px; height: 200px; overflow: hidden; margin: 0 auto; border-radius: 50%;">
                             <img src="${member.image}" alt="${member.name}">
                         </div>
@@ -34,5 +34,23 @@ fetch('bios.json')
                 </div>`;
             container.innerHTML += card;
         });
+            // Add responsive CSS to maintain portrait mode stacking
+        const style = document.createElement('style');
+        style.textContent = `
+            @media (max-width: 768px) {
+                .content-box {
+                    flex-direction: column !important;
+                }
+                .content-left {
+                    flex: 1 !important;
+                    width: 100% !important;
+                }
+                .content-text {
+                    flex: 1 !important;
+                    width: 100% !important;
+                }
+            }
+        `;
+        document.head.appendChild(style);
     })
     .catch(error => console.error('Error loading team data:', error));
