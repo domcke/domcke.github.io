@@ -39,6 +39,7 @@ fetch('bios.json')
         style.textContent = `
             @media (max-width: 768px) {
                 .content-box {
+                    margin-bottom: 40px;
                     flex-direction: column !important;
                 }
                 .content-left {
