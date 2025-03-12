@@ -22,6 +22,17 @@
         "github": null
     },
     {
+        "name": "Erich Brunner",
+        "role": "Senior Research Associate",
+        "email": "erich.brunner[a]uzh.ch",
+        "bio": "Erich is a Senior Research Associate and Lecturer at the University of Zurich, with a strong background in molecular biology, genetics, mass spectrometry, and genomics. His research interests are focused on the development of novel technologies in different fields, ranging from CRISPR to single-cell transcriptomic profiling. Erich’s passion for technical innovation is complemented by his work in basic research, particularly in the areas of Wnt signaling and gene regulation in Drosophila melanogaster.",
+        "extra": "When he’s not in the lab, Erich enjoys spending time outdoors, training his Vizsla as a search and rescue dog, hiking, or riding his motorcycle.",
+        "image": "assets/erich_sq.png",
+        "linkedin": null,
+        "x": null,
+        "github": null
+    },
+    {
         "name": "Giulia Moro",
         "role": "Postdoc",
         "email": "giulia.moro2[a]uzh.ch",
@@ -29,17 +40,6 @@
         "extra": "Beyond the lab, Giulia’s curiosity drives her to explore new places while traveling, try new recipes while baking, and immerse herself in nature.",
         "image": "assets/giulia_sq.png",
         "linkedin": "http://www.linkedin.com/in/giulia-moro-19a4b1299",
-        "x": null,
-        "github": null
-    },
-    {
-        "name": "Erich Brunner",
-        "role": "Senior Research Associate",
-        "email": "erich.brunner[a]uzh.ch",
-        "bio": "Erich is a Senior Research Associate and Lecturer at the University of Zurich, with a strong background in molecular biology, genetics, mass spectrometry, and genomics. His research interests are focused on the development of novel technologies in different fields, ranging from CRISPR to single-cell transcriptomic profiling. Erich’s passion for technical innovation is complemented by his work in basic research, particularly in the areas of Wnt signaling and gene regulation in Drosophila melanogaster.",
-        "extra": "When he’s not in the lab, Erich enjoys spending time outdoors, training his Vizsla as a search and rescue dog, hiking, or riding his motorcycle.",
-        "image": null,
-        "linkedin": null,
         "x": null,
         "github": null
     }
