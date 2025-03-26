@@ -53,5 +53,16 @@
         "linkedin": "http://www.linkedin.com/in/maria-melissourgou-35470627a",
         "x": null,
         "github": "https://github.com/mamelisa"
+    },
+    {
+        "name": "You?",
+        "role": null,
+        "email": null,
+        "bio": "Reach out to Silvia with a letter of motivation and your CV, if you are interested in joining our lab.",
+        "extra": null,
+        "image": "assets/team_pic_v2.jpg",
+        "linkedin": null,
+        "x": null,
+        "github": null
     }
 ]
