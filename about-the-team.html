@@ -13,14 +13,18 @@
             font-size: 16px;
         }
 
-        .full-screen {
+        body {
             background-image: url('assets/team_pic_v2.jpg');
             background-size: cover;
             background-position: center;
+            background-attachment: fixed; /* This keeps the background fixed when scrolling */
+        }
+
+        .full-screen {
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start; /* Changed from center to allow content to flow */
             align-items: center;
             padding: 20px;
             box-sizing: border-box;
@@ -109,6 +113,7 @@
             display: flex;
             gap: 20px;
             margin-top: 20px;
+            margin-bottom: 20px; /* Added to give some space at the bottom */
         }
 
         .button {
