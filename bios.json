@@ -36,7 +36,7 @@
         "name": "Giulia Moro",
         "role": "Postdoc",
         "email": "giulia.moro2[a]uzh.ch",
-        "bio": "Giulia is a Postdoctoral Researcher working on new single cell genomics technologies. During her PhD at the University of Zurich, Giulia developed a targeted scRNA-seq method and applied it to questions in cancer biology. She enjoys all stages of method development, from wet-lab experiments to design of computational pipelines.",
+        "bio": "Giulia is a postdoctoral researcher working on new single cell genomics technologies. During her PhD at the University of Zurich, Giulia developed a targeted scRNA-seq method and applied it to questions in cancer biology. She enjoys all stages of method development, from wet-lab experiments to design of computational pipelines.",
         "extra": "Beyond the lab, Giulia’s curiosity drives her to explore new places while traveling, try new recipes while baking, and immerse herself in nature.",
         "image": "assets/giulia_sq.png",
         "linkedin": "http://www.linkedin.com/in/giulia-moro-19a4b1299",
@@ -77,10 +77,21 @@
         "github": null
     },
     {
+        "name": "Masha Cherepkova",
+        "role": "Postdoc",
+        "email": "masha.cherepkova[a]uzh.ch",
+        "bio": "Masha is a postdoctoral researcher with a background in synthetic biology and genome engineering. During her PhD at ETH Zürich, she worked on the development of CRISPR-Cas-based molecular recording technologies. Her research interests lie in gene regulation and cell fate determination, particularly in how transcription factors shape cellular identity. She is also passionate about creating new tools to study dynamic cell states.",
+        "extra": "Outside the lab, Masha enjoys traveling, exploring nature, scuba diving, and art.",
+        "image": "assets/masha_sq.png",
+        "linkedin": null,
+        "x": null,
+        "github": null
+    },
+    {
         "name": "You?",
         "role": "",
         "email": "",
-        "bio": "Please reach out to Silvia with a letter of motivation and your CV, if you are interested in joining our lab.",
+        "bio": "Please reach out to Silvia with a letter of motivation, your CV and a letter of recommendation, if you are interested in joining our lab.",
         "extra": "",
         "image": "assets/team_pic_v2.jpg",
         "linkedin": null,
