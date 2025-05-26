@@ -13,14 +13,18 @@
             font-size: 16px;
         }
 
-        .full-screen {
-            background-image: url('assets/lookout.png');
+        body {
+            background-image: url('assets/lookout.jpg');
             background-size: cover;
             background-position: center;
+            background-attachment: fixed; /* This keeps the background fixed when scrolling */
+        }
+
+        .full-screen {
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start; /* Changed from center to allow content to flow */
             align-items: center;
             padding: 20px;
             box-sizing: border-box;
