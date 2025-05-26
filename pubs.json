@@ -6,6 +6,13 @@
         "ImageWidth": ""
     },
     {
+        "title": "Barcoded monoclonal embryoids are a potential solution to confounding bottlenecks in mosaic organoid screens",
+        "description": "Expanding Perturb-seq-like pooled single cell CRISPR screens from cell lines to multicellular systems also adds layers of complexity to the confounding effects. We perturbed all ~1600 TFs in mosaic mouse embryoid bodies (EBs), precursors for many organoid protocols, and profiled them with single cell RNA-seq. However, we find that stochastic clonal skewing of individual gRNAs in EBs, combined with inter-EB heterogeneity, can overwhelm perturbation effects. As a possible solution, we introduce monoclonal embryoids with an ‘organoid barcode’. This sequence allows us to determine not only the transcriptome and perturbation identity for each cell but also the individual EB of origin - while still growing EBs in a pool, for scalability and shared culture conditions. Accordingly, we can quantify both baseline inter-EB heterogeneity and perturbation-specific changes in cell type composition and apply replicate-based DE analyses to reduce false positive rates. This study both highlights challenges with single cell organoid screens and provides an avenue to study phenotypes with reduced penetrance or variable expressivity. <i> [Corresponding author] <i>",
+        "image": "assets/clonotypes.png",
+        "fulltext": "https://www.biorxiv.org/content/10.1101/2025.05.23.655669v1",
+        "imageWidth": 300
+    },
+    {
         "title": "A reference cell tree will serve science better than a reference cell atlas",
         "description": "What is a 'cell type'? Our systems of classification both reflect and direct our thinking. In this forward looking perspective, we inspect different possible approaches to classifying and defining cell types, in light of the large numbers of single cell datasets that are being generated. We advocate for a data-driven, tree-based nomenclature and provide a thought experiment on how it might be derived. <i> [Corresponding author] <i>",
         "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867423001599-gr4.jpg",
