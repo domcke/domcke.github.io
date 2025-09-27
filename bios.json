@@ -16,7 +16,7 @@
         "email": "jacqueline.oberholzer[a]uzh.ch",
         "bio": "Jacqueline supports us and other groups at the Department of Molecular Life Sciences in financial and Human Resource matters.",
         "extra": "Before joining the University of Zurich as an Administrative Assistant, she trained to become a confectioner and completed her commercial apprenticeship.",
-        "image": "assets/jacqueline_sq.png",
+        "image": "assets/jacqueline_sq_kleiner.png",
         "linkedin": null,
         "x": null,
         "github": null
@@ -27,7 +27,7 @@
         "email": "erich.brunner[a]uzh.ch",
         "bio": "Erich is a Senior Research Associate and Lecturer at the University of Zurich, with a strong background in molecular biology, genetics, mass spectrometry, and genomics. His research interests are focused on developing novel technologies around CRISPR and single-cell transcriptomics, complemented by basic research in Wnt signaling and gene regulation in Drosophila melanogaster.",
         "extra": "When he’s not in the lab, Erich enjoys spending time outdoors with his dog, hiking, or riding his motorcycle.",
-        "image": "assets/erich_sq.png",
+        "image": "assets/erich_sq_kleiner.png",
         "linkedin": null,
         "x": null,
         "github": null
@@ -38,7 +38,7 @@
         "email": "giulia.moro2[a]uzh.ch",
         "bio": "Giulia is a postdoctoral researcher working on new single cell genomics technologies. During her PhD at the University of Zurich, Giulia developed a targeted scRNA-seq method and applied it to questions in cancer biology. She enjoys all stages of method development, from wet-lab experiments to design of computational pipelines.",
         "extra": "Beyond the lab, Giulia’s curiosity drives her to explore new places while traveling, try new recipes while baking, and immerse herself in nature.",
-        "image": "assets/giulia_sq.png",
+        "image": "assets/giulia_sq_kleiner.png",
         "linkedin": "http://www.linkedin.com/in/giulia-moro-19a4b1299",
         "x": null,
         "github": null
@@ -49,14 +49,14 @@
         "email": "maria.melissourgou[a]uzh.ch",
         "bio": "Maria studied Molecular Biology, Genetics and Applied Bioinformatics in Greece. During her master’s she investigated the role of the Polycomb Complexes in development and disease at Erasmus MC in Rotterdam. In her PhD project she aims to elucidate how transcription factor and chromatin interactions drive distinct cell states, using high-throughput genetic editing and single-cell genomics approaches.",
         "extra": "Apart from her love for science, Maria enjoys cooking for friends and family, connecting with nature and exploring new sports.",
-        "image": "assets/maria_sq.png",
+        "image": "assets/maria_sq_kleiner.png",
         "linkedin": "http://www.linkedin.com/in/maria-melissourgou-35470627a",
         "x": null,
         "github": "https://github.com/mamelisa"
     },
     {
         "name": "Joey (Wonhyung) Choi",
-        "role": "Undergraduate Student",
+        "role": "Master Student",
         "email": "wonhyung.choi[a]uzh.ch",
         "bio": "Joey (Wonhyung) is a Master’s student in Quantitative and Systems Biology at the University of Zurich. Originally from South Korea, he received his Bachelor’s degree in Biological Sciences at Peking University, China, where he studied the role of transcriptional pausing during erythropoiesis. So far, he is working closely with Giulia, further developing his analytical skills and optimizing targeted single cell genomics protocols.",
         "extra": "Outside the lab, Joey enjoys learning German and working out at the gym.",
@@ -71,7 +71,7 @@
         "email": "claudio.pisano[a]uzh.ch",
         "bio": "Claudio is our lab manager and is responsible for overseeing the daily operations of the lab, particularly around working with stem cells. He joins us after a Masters in Edinburgh and research experience at the Istituto Italiano di Tecnologia and University Hospital of Zurich. Claudio is passionate about supporting team projects and enjoys mentoring new students, guiding them as they navigate the world of laboratory research.",
         "extra": "Outside of the lab, Claudio thrives on physical challenges. He actively competes in CrossFit competitions, enjoys swimming and trekking adventures.",
-        "image": "assets/claudio_sq.png",
+        "image": "assets/claudio_sq_kleiner.png",
         "linkedin": null,
         "x": null,
         "github": null
@@ -83,6 +83,28 @@
         "bio": "Masha is a postdoctoral researcher with a background in synthetic biology and genome engineering. During her PhD at ETH Zürich, she worked on the development of CRISPR-Cas-based molecular recording technologies. Her research interests lie in gene regulation and cell fate determination, particularly in how transcription factors shape cellular identity. She is also passionate about creating new tools to study dynamic cell states.",
         "extra": "Outside the lab, Masha enjoys traveling, exploring nature, scuba diving, and art.",
         "image": "assets/masha_sq.png",
+        "linkedin": null,
+        "x": null,
+        "github": null
+    },
+        {
+        "name": "Kyriaki Karava",
+        "role": "PhD Student",
+        "email": "kyriaki.karava[a]uzh.ch",
+        "bio": "Kyriaki holds a BSc in Biology from the Aristotle University of Thessaloniki and an MSc in Biotechnology from ETH Zürich. During her Master’s, Kyriaki developed multimodal variant scanning technologies based on precision genome-editing.",
+        "extra": "Beyond the bench, Kyriaki enjoys being in Greece, weightlifting, taking care of her plants and learning new fun animal facts.",
+        "image": "assets/kiki_sq.jpg",
+        "linkedin": null,
+        "x": null,
+        "github": null
+    },
+            {
+        "name": "Lena Wolff",
+        "role": "Master Student",
+        "email": null,
+        "bio": "Lena is a Master's student in Biology at the Technical University of Munich, where she investigated gene regulation in inflammatory macrophages as a student research assistant. She is working with Masha to develop novel approaches for studying the activity of regulatory elements across different cell states.",
+        "extra": "Outside of science, Lena has a passion for art, enjoys hand lettering, and loves spending time in nature - preferably cycling or running.",
+        "image": "assets/lena_sq.jpg",
         "linkedin": null,
         "x": null,
         "github": null
