@@ -101,7 +101,7 @@
             {
         "name": "Lena Wolff",
         "role": "Master Student",
-        "email": null,
+        "email": "",
         "bio": "Lena is a Master's student in Biology at the Technical University of Munich, where she investigated gene regulation in inflammatory macrophages as a student research assistant. She is working with Masha to develop novel approaches for studying the activity of regulatory elements across different cell states.",
         "extra": "Outside of science, Lena has a passion for art, enjoys hand lettering, and loves spending time in nature - preferably cycling or running.",
         "image": "assets/lena_sq.jpg",
@@ -115,7 +115,7 @@
         "email": "",
         "bio": "Please reach out to Silvia with a letter of motivation, your CV and a letter of recommendation, if you are interested in joining our lab.",
         "extra": "",
-        "image": "assets/team_pic_v2.jpg",
+        "image": "assets/team_pic_kleiner.jpg",
         "linkedin": null,
         "x": null,
         "github": null
