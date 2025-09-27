@@ -20,11 +20,17 @@ Commit your work to your development branch as you go.
 
 Once you have completed and tested your changes with the dev server, and committed them to your branch, make them live by merging your dev branch into main:
 > git add .
+
 > git commit -m "commit message"
+
 > git push
+
 > git checkout main
+
 > git pull
+
 > git merge new-branch-name
+
 > git push
 
 Now your changes made in new-branch-name have been merged into the main branch and that branch has been synchronized with github so that they exist in the publicly served website. 
