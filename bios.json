@@ -109,6 +109,17 @@
         "x": null,
         "github": null
     },
+            {
+        "name": "Atreya Choudhury",
+        "role": "PhD Student",
+        "email": "atreya.choudhury[a]uzh.ch",
+        "bio": "Atreya is a shared PhD student between the Domcke and the Robinson labs. He did his Bachelor’s in mathematics at the Indian Statistical Institute, Bangalore and a Master’s in statistics at ETH Zürich, where he developed computational tools for quantifying heterogeneity in single-cell methylation data. He is currently interested in the study and development of methods for analyzing single-cell perturbation data.",
+        "extra": "He also enjoys music, cinema, spending time in museums and drinking copious amounts of tea.",
+        "image": "assets/atreya.jpg",
+        "linkedin": null,
+        "x": null,
+        "github": "https://github.com/atchox"
+    },
     {
         "name": "You?",
         "role": "",
