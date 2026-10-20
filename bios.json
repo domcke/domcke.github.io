@@ -60,7 +60,7 @@
         "email": "claudio.pisano[a]uzh.ch",
         "bio": "Claudio is our lab manager and is responsible for overseeing the daily operations of the lab, particularly around working with stem cells. He joins us after a Masters in Edinburgh and research experience at the Istituto Italiano di Tecnologia and University Hospital of Zurich. Claudio is passionate about supporting team projects and enjoys mentoring new students, guiding them as they navigate the world of laboratory research.",
         "extra": "Outside of the lab, Claudio thrives on physical challenges, such as CrossFit competitions, swimming or trekking adventures.",
-        "image": "assets/claudio_sq_kleiner.png",
+        "image": "assets/claudio_sq.png",
         "linkedin": null,
         "x": null,
         "github": null
@@ -108,6 +108,17 @@
         "linkedin": null,
         "x": null,
         "github": "https://github.com/atchox"
+    },
+               {
+        "name": "Julia Rühle",
+        "role": "Postdoc",
+        "email": "julia.ruehle[a]mls.uzh.ch",
+        "bio": "Julia is a postdoctoral researcher with a background in synthetic and computational biology. During her PhD at the Centre for Genomic Regulation in Barcelona, she developed reporter assays to study gene regulatory elements in hematopoiesis. Her research focuses on understanding how TFs and regulatory elements shape cell fate decisions, and on developing experimental and computational approaches that provide interpretable insights into gene regulation.",
+        "extra": "Outside the lab, Julia enjoys beach volleyball, hiking, and playing guitar.",
+        "image": "assets/julia_sq.jpg",
+        "linkedin": null,
+        "x": null,
+        "github": null
     },
     {
         "name": "You?",
